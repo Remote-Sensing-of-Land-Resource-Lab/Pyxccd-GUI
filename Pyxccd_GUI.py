@@ -1,5 +1,5 @@
 import matplotlib
-matplotlib.use('TkAgg')  # 强制使用Tkinter后端
+matplotlib.use('TkAgg')  
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox, scrolledtext
 import pandas as pd
@@ -17,7 +17,7 @@ class ChangeDetectionApp:
         self.set_dpi_awareness()
         self.last_params = {}
         self.root.title("Pyxccd GUI1.0")
-        self.root.geometry("900x930")  # 增大窗口尺寸
+        self.root.geometry("900x930")  
         
         # 存储数据
         self.df = None
@@ -2847,4 +2847,5 @@ def main():
     root.mainloop()
 
 if __name__ == "__main__":
+
     main()
