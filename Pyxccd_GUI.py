@@ -718,7 +718,7 @@ class ChangeDetectionApp:
     - Visualizes break, state and curve fitting 
 
     Usage Instructions:
-    1. Select input data file (CSV or Excel format)
+    1. Select input data file (CSV or Excel format), Note that only support integer type
     2. Configure band selection parameters
     3. Choose detection method (S-CCD or COLD)
     4. Set relevant parameters
@@ -2849,3 +2849,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
